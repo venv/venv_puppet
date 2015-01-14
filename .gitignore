@@ -1,0 +1,13 @@
+.DS_Store
+pkg/*
+spec/fixtures/*
+Gemfile.lock
+Puppetfile.lock
+.tmp
+*.swp
+.bundle/
+.rspec_system/
+modules
+vendor/
+.vagrant
+.librarian
