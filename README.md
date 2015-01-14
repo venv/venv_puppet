@@ -2,10 +2,10 @@
 Puppetmaster Infrastructure
 
 ## install required packages
-```apt-get update && apt-get upgrade && apt-get install -y git ca-certificates bundler```
+```apt-get update && apt-get upgrade && apt-get install -y lsb-release git ca-certificates bundler```
 
 ## clone repo
-```git clone https://github.com/venv/venv_puppet```
+```git clone https://github.com/venv/venv_puppet && cd venv_puppet```
 
 ## install requires gems
 ```bundle install```
