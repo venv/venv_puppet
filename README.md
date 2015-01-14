@@ -1,14 +1,17 @@
-# install required packages
+# venv_puppet
+Puppetmaster Infrastructure
+
+## install required packages
 ```apt-get install -y git ca-certifcates bundler```
 
-# clone repo
+## clone repo
 ```git clone <foobar>```
 
-# install requires gems
+## install requires gems
 ```bundle install```
 
-# trigger librarian puppet
+## trigger librarian puppet
 ```bundle exec rake get_modules```
 
-# trigger puppet run
+## trigger puppet run
 ```bundle exec rake run_puppet```
