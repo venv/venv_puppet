@@ -2,7 +2,7 @@
 Puppetmaster Infrastructure
 
 ## install required packages
-```apt-get install -y git ca-certifcates bundler```
+```apt-get update && apt-get upgrade && apt-get install -y git ca-certificates bundler```
 
 ## clone repo
 ```git clone https://github.com/venv/venv_puppet```
