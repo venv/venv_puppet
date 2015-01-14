@@ -5,7 +5,7 @@ Puppetmaster Infrastructure
 ```apt-get install -y git ca-certifcates bundler```
 
 ## clone repo
-```git clone <foobar>```
+```git clone https://github.com/venv/venv_puppet```
 
 ## install requires gems
 ```bundle install```
