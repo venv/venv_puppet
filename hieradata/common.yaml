@@ -1,5 +1,5 @@
 ---
 puppet::agent::puppet_server: puppet.mgmt.venv.de
-puppet::agent::environment: production
+puppet::agent::environment: venv_prod
 puppet::master::environments: directory
 puppet::master::storeconfigs: true
