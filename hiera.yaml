@@ -3,7 +3,7 @@
 :yaml:
   :datadir: "hieradata"
 :hierarchy:
-  - "%{::clientcert}"
+  - "%{::hostname}"
   - "%{::environment}"
   - "virtual_%{::is_virtual}"
   - common
