@@ -1,4 +1,5 @@
 node default {
+  include ssh
   include puppet::repo::puppetlabs
   class {'puppetdb':
     require => Class['puppet::repo::puppetlabs']
