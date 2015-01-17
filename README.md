@@ -11,7 +11,7 @@ You might want to adapt ```hieradata/common.yaml``` to fit your needs.
 ```git clone https://github.com/venv/venv_puppet && cd venv_puppet```
 
 ## install requires gems
-```bundle install```
+```bundle install --path vendor/gems```
 
 ## trigger librarian puppet
 ```bundle exec rake get_modules```
